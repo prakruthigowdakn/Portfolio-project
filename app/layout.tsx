@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
-import ResponsiveNav from "@/Component/Home/Navbar/responsiveNav";
-import Footer from "@/Component/Home/Footer/footer";
 import ScrollToTopButton from "@/Component/Helper/scrollToTop";
 
 
@@ -26,9 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="custom-scrollbar">
       <body className={font.className}>
-       <ResponsiveNav/>
+       
         {children}
-        <Footer/>
         <ScrollToTopButton/>
         </body>
     </html>

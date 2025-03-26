@@ -11,6 +11,9 @@ import Contact from './Contact/contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { init } from 'next/dist/compiled/webpack/webpack'
+import Footer from './Footer/footer'
+
+
 
 const Home = () => {
 
@@ -38,6 +41,10 @@ const Home = () => {
       <Reviews/>
       <Blog/>
       <Contact/>
+      <Footer/>
+     
+      
+     
      
     </div>
   )
